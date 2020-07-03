@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Yellowtail&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.informationContainer {
+    text-align: center;
+    display: inline-block;
+    margin: 30px 200px;
+}
+
+.informationContainer h1 {
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.newsInfContainer {
+    width: 900px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.imageContainer {
+    margin-bottom: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imageContainer img {
+    width: 100%;
+}
+.informationContainer h3 {
+    font-size: 25px;
+    font-family: 'Yellowtail', cursive;
+    color: darkblue;
+    margin-bottom: 30px;
+}

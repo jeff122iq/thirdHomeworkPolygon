@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    background-color: tomato;
+}
+
+.userCardContainer {
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 140px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cardHeaderContainer {
+    width: 100%;
+    height: 40px;
+
+}
+
+.cardHeaderContainer img {
+    width: 100%;
+}
+
+.userImageContainer {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: mediumseagreen;
+    overflow: hidden;
+    margin-top: 70px;
+    margin-left: 85px;
+}
+
+.userImageContainer img {
+    width: 100%;
+}
+
+.contactIcon {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    transition: background-color 1s;
+    cursor: pointer;
+}
+
+.contactIcon:hover {
+    background-color: brown;
+    transition: background-color 0.3s;
+}

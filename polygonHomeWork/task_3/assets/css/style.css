@@ -1,0 +1,16 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+/* Start Start Big Table */
+table {
+	border-collapse: collapse;
+	margin: 50px auto;
+}
+table tr td {
+	border: 1px solid #000000;
+	padding: 30px;
+}
+/* End Start Big Table */
